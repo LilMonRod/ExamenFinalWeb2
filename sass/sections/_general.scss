@@ -83,16 +83,20 @@ body {
 li {
     padding: 0 50px;
 }
-li:first-child::after {
-    content: "|";
-    color: #dce8e8;
+li:first-child {
+    border-right: solid 2px #dce8e8;
 }
-li:last-child::before {
-    content: "|";
-    color: #dce8e8;
+li:last-child {
+    border-left: solid 2px #dce8e8;
 }
 hr {
     width: 0px;
     height: 86px;
-    border-color: black; 
+    border-color: #1c1e1e; 
 } 
+#container-menu-footer {
+    text-align: center;
+}
+#container-content-menu-footer {
+    display: inline-block;
+}
