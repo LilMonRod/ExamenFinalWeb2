@@ -315,11 +315,18 @@ body {
   background: -o-linear-gradient(top, white 0%, white 61%, #f2fbfb 63%, #f2fbfb 63%, #f2fbfb 100%);
   background: -ms-linear-gradient(top, white 0%, white 61%, #f2fbfb 63%, #f2fbfb 63%, #f2fbfb 100%);
   background: linear-gradient(to bottom, white 0%, white 61%, #f2fbfb 63%, #f2fbfb 63%, #f2fbfb 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2fbfb', GradientType=0 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2fbfb', GradientType=0 );
+  font-family: 'Montserrat', sans-serif; }
 
 #wrapper {
   max-width: 1170px;
   margin: 0 auto; }
+
+.width {
+  width: 100%; }
+
+.space-bottom {
+  margin-bottom: 180px; }
 
 /*********************
 *******header*********
@@ -329,5 +336,17 @@ body {
 
 #menu-header > .menu {
   float: right; }
+
+/*********************
+*********Title********
+**********************/
+#title-head {
+  font-size: 8em;
+  margin: 0; }
+
+#title-text {
+  font-size: 0.8em;
+  margin: 0;
+  color: #aeadae; }
 
 /*# sourceMappingURL=style.css.map */
