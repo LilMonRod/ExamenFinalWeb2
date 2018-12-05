@@ -349,4 +349,11 @@ body {
   margin: 0;
   color: #aeadae; }
 
+/*********************
+*********Work********
+**********************/
+.img-width {
+  max-width: 50%;
+  float: left; }
+
 /*# sourceMappingURL=style.css.map */
