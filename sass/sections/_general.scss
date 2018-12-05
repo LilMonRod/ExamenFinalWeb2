@@ -1,0 +1,21 @@
+/*********************
+*******Wrapper*********
+**********************/
+body {
+    @include background-gradient();
+    
+}
+#wrapper {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+/*********************
+*******header*********
+**********************/
+#menu-header {
+    margin-top: 180px;
+}
+#menu-header>.menu {
+    float: right;
+}
